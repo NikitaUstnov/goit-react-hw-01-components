@@ -1,0 +1,7 @@
+.statistics {
+  border: 1px solid #000;
+}
+
+.stat-list {
+  display: flex;
+}

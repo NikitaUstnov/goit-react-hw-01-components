@@ -1,0 +1,26 @@
+.avatar {
+  width: 100%;
+  height: auto;
+
+  display: block;
+  margin: 0;
+  /* border-radius: 50%; */
+}
+
+.description {
+  width: 100%;
+}
+
+.profile {
+  border: 1px solid #000;
+  border-radius: 3px;
+  box-shadow: #000;
+
+  width: 200px;
+
+  margin-left: 50px;
+}
+
+.stats li {
+  display: flex;
+}
