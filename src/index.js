@@ -1,14 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import FriendsList from './Friends-list/FriendsList';
+import SocialProfile from './social-profile/Social';
+import Statistic from './Statistics/StatisticSection';
+import TransacrionList from './TransacrionHistory/transactionCard';
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <SocialProfile />
+    <FriendsList />
+    <Statistic />
+    <TransacrionList />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
 
 // If you want to start measuring performance in your app, pass a function
