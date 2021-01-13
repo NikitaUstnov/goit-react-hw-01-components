@@ -1,0 +1,30 @@
+.item {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  border-bottom: 1px solid salmon;
+
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+}
+
+.avatar {
+  width: 30px;
+  height: auto;
+
+  border-radius: 50%;
+}
+
+.name {
+  font-size: 20px;
+}
+
+.online {
+  color: #92f08d;
+}
+
+.offline {
+  color: slategrey;
+}
